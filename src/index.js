@@ -7,3 +7,5 @@ admin.initializeApp({
     databaseURL: "https://dv-demo-villa.firebaseio.com"
 });
 // ==================================================================================
+
+console.log(admin.app().name);
